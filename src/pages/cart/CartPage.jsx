@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
 import { Trash } from 'lucide-react'
-import { decrementQuantity, deleteFromCart, incrementQuantity } from "../../redux/CartSlice";
+import { decrementQuantity, deleteFromCart, incrementQuantity } from "../../redux/CartSlice"; 
 import toast from "react-hot-toast";
 import { useEffect ,useState} from "react";
 import {firebaseFirestore as fireDB } from "../../firebase/FirebaseConfig";
